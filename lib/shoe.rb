@@ -12,10 +12,10 @@ class Shoe
   end
 
   def brand=(brand)
-    if brand != @brand
+    # if brand != @brand
       @brand = brand
       BRANDS << brand
-    end
+    # end
   end
 
   def cobble
