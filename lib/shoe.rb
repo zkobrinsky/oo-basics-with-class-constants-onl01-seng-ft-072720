@@ -11,12 +11,12 @@ class Shoe
     @brand = brand
   end
 
-  # def brand=(brand)
-  #   # if brand != @brand
-  #     @brand = brand
-  #     BRANDS << brand
-  #   # end
-  # end
+  def brand=(brand)
+    # if brand != @brand
+      @brand = brand
+      BRANDS << brand
+    # end
+  end
 
   def cobble
     self.condition = "new"
