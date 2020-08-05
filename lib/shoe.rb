@@ -26,3 +26,6 @@ class Shoe
   # binding.pry
 
 end
+
+myshoe = Shoe.new("Nike")
+myshoe.brand = "Adidas"
