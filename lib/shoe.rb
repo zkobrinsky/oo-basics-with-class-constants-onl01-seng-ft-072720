@@ -29,3 +29,4 @@ end
 
 myshoe = Shoe.new("Nike")
 myshoe.brand = "Adidas"
+puts myshoe
