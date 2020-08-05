@@ -28,5 +28,5 @@ class Shoe
 end
 
 myshoe = Shoe.new("Nike")
-myshoe.brand = "Adidas"
+# myshoe.brand = "Adidas"
 puts myshoe
