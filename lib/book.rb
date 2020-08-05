@@ -13,9 +13,9 @@ class Book
     GENRES << genre
   end
 
-  def genre
-    puts GENRES.join
-  end
+  # def genre
+  #   puts GENRES.join
+  # end
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
