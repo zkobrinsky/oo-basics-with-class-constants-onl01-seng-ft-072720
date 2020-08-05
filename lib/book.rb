@@ -13,7 +13,9 @@ class Book
     GENRES <<genre
   end
 
-
+  def genre
+    GENRES
+  end
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
